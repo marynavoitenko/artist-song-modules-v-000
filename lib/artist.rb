@@ -1,9 +1,9 @@
 require 'pry'
-extend Memorable
 
 class Artist
   attr_accessor :name
   attr_reader :songs
+  extend Memorable
 
   @@artists = []
 
